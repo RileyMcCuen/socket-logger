@@ -1,0 +1,71 @@
+body {
+    background-color: #0A0A0A;
+    font-family: "Courier New";
+    color: #F0F0F0;
+    margin: 20px;
+}
+
+#title-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    align-items: baseline;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+button {
+    font-family: "Courier New";
+    border: none;
+    border-radius: 10px;
+    font-size: 24px;
+    padding: 5px 10px;
+    background-color: #F0F0F0;
+    color: #0A0A0A;
+}
+
+button:hover, button.selected {
+    background-color: #BABABA;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.hide {
+    display: none;
+}
+
+li#entry-settings {
+    margin-bottom: 20px;
+}
+
+li.entry {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+li.entry > .content {
+    flex: 1 1 0;
+    margin-left: 10px;
+}
+
+.debug {
+    color: #05FF4C;
+}
+
+.info {
+    color: #059FFF;
+}
+
+.warn {
+    color: #FFD438;
+}
+
+.error {
+    color: #FF1F1F;
+}
